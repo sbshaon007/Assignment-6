@@ -1,0 +1,325 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #f6f9f9;
+	font-family: 'Lato', sans-serif;
+}
+header{
+	padding: 30px 0px;
+}
+
+/* Banner Section */
+
+
+.banner{
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.banner-main{
+	padding-top: 210px;
+	padding-bottom: 80px;
+}
+.banner-main h2{
+	font-size: 120px;
+	color: #fff;
+}
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	width: 87%;
+	margin: 20px auto;
+}
+.banner-main p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.btn-primary{
+	font-size: 18px;
+	color: #fff;
+	padding: 18px 32px;
+	background: transparent;
+	margin-top: 70px;
+
+}
+.fa.fa-chevron-down{
+	color: #fff;
+	margin-top: 180px;
+	cursor: pointer;
+}
+
+
+/* Design Section */
+
+
+.design{
+	padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.design-main h2{
+	font-size: 40px;
+	margin-bottom: 35px;
+	color: #16161699;
+}
+.design-main p{
+	font-size: 20px;
+	color: #999999;
+}
+
+
+/* Feature Section */
+
+
+.feature{
+	background: #fff;
+
+	padding: 25px 0px;
+}
+
+.feature-one{
+	text-align: center;
+	padding: 70px 50px;
+	letter-spacing: 1px;
+}
+
+.feature-one h2{
+	font-size: 22px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+
+}
+.feature-one p{
+	font-size: 15px;
+	color: #999999;
+
+}
+.fa.fa-mobile{
+	font-size: 70px;
+	color: #fff;
+	padding: 25px 43px;
+	background: #5fc3ff;
+	border-radius: 4px;
+}
+
+
+.fa.fa-paper-plane{
+	font-size: 70px;
+	color: #fff;
+	padding: 25px 25px;
+	background: #5fc3ff;
+	border-radius: 4px;
+}
+
+
+.fa.fa-bullhorn{
+	font-size: 70px;
+	color: #fff;
+	padding: 25px 28px;
+	background: #5fc3ff;
+	border-radius: 4px;
+}
+
+
+/* Gallary Section */
+
+
+.gallary{
+	padding: 80px 0px;
+}
+
+.gallary-title h2{
+	font-size: 41px;
+	color: #161616b3;
+}
+
+.gallary-title p{
+	color: #4d4d4d;
+	font-size: 15px;
+	padding-bottom: 65px;
+	padding-top: 18px;
+	letter-spacing: 1px;
+}
+
+.gallary-one{
+	padding: 10px 0px;
+}
+
+
+/* Stay With Us Section */
+
+
+.stay{
+	padding: 80px 0px;
+	background: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.stay-title h2{
+	font-size: 41px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.stay-title p{
+	font-size: 15px;
+	color: #999999;
+	padding: 20px 0 50px 0;
+	letter-spacing: 1px;
+}
+
+.form-control{
+	padding: 25px 20px;
+	font-size: 16px;
+	color: #fff;
+	background: transparent;
+	border:1px solid #999999;
+
+}
+
+#text-ctrl{
+	height: 250px;
+	padding: 20px 20px;
+	font-size: 16px;
+}
+
+.subscribe{
+	color: #fff;
+	padding-left: 10px;
+}
+
+.btn-secondary{
+
+	background: transparent;
+	border: 1px solid #15a4fa;
+	padding: 13px 70px;
+
+}
+
+
+/* Footer Section Starts */
+
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.copyright p {
+
+	letter-spacing: 2px;
+}
+
+.social-btn ul{
+	list-style: none;
+}
+
+.social-btn ul li{
+	display: inline-block;
+	margin: 0px 2px;
+	font-size: 18px;
+	margin: 0px 7px;
+}
+
+.social-btn{
+	text-align: right;
+}
+
+.social-btn ul li a{
+	text-decoration: none;
+
+}
+
+.fa.fa-facebook{
+	background: #15a4fa;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 4px;
+}
+
+.fa.fa-twitter{
+	background: #15a4fa;
+	color: #fff;
+	padding: 8px 11px;
+	border-radius: 4px;
+}
+
+.fa.fa-linkedin{
+	background: #15a4fa;
+	color: #fff;
+	padding: 8px 12px;
+	border-radius: 4px;
+}
+
+.fa.fa-google-plus{
+	background: #15a4fa;
+	color: #fff;
+	padding: 8px 9px;
+	border-radius: 4px;
+}
+
+
+/* Media Query */
+
+/* Mobile devices */
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+.banner-main h2 {
+    
+    font-size: 100px;
+    
+}
+
+.copyright {
+	text-align: center;
+}
+
+.social-btn {
+	text-align: center;
+}
+
+
+.btn-secondary {
+	margin-top: 24px;
+
+}
+
+}
+
+
+/* Small devices */
+
+@media (min-width: 501px) and (max-width: 768px) {
+
+.copyright{
+	text-align: center;
+}
+
+.social-btn{
+	text-align: right;
+}
+
+.btn-secondary {
+    
+    margin: 20px auto;
+    display: block;
+}
+
+} 
+
+/* Medium devices */
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+
+/* large devices */
+
+@media (min-width: 1200px) { ... }
